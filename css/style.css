@@ -1,0 +1,43 @@
+body{
+  margin-top: 190px;
+  background-color: grey;
+  background-image: url("http://buzzerg.com/wp-content/uploads/8589130578183-grey-nature-edit-for-pc-computer-wallpaper-hd.jpg");
+}
+
+.footNote{
+  color: darkgrey;
+}
+
+.tweetMe, .nextQuote{
+  background-color: darkgrey;
+  color:white;
+  border-top-width: 0;
+  border-right-width: 0;
+  border-left-width: 0;
+}
+
+.tweetMe:hover, .nextQuote:hover{
+	border-bottom-color: black;
+}
+
+img{
+  width: 60%;
+}
+
+.img2{
+  transform: rotate(180deg);
+}
+
+.messageBoard{
+	border-bottom-color: rgba(0,0,0,0.55);
+	border-left-color: grey;
+	border-top-color: grey;
+	border-right-color: grey;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.55);
+	width: 100%;
+	background: rgba(255, 255, 255, 0);
+}
+
+.btn:active {
+  outline: none;
+}
